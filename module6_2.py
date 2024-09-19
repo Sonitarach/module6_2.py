@@ -17,9 +17,9 @@ class Vehicle:
         print(f'Цвет: {self._color}')
 
     def print_info(self):
-        Vehicle.get_model(self)
-        Vehicle.get_horsepower(self)
-        Vehicle.get_color(self)
+        self.get_model()
+        self.get_horsepower()
+        self.get_color()
         print(f'Владелец: {self.owner}')
 
     def set_color(self, new_color):
